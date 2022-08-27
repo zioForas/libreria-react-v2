@@ -25,7 +25,7 @@ body {
 nav {
   height: 80px;
   display: flex;
-  box-shadow: 0 10px 16px 8px rgb(5 84 135 / 21%);
+  box-shadow: 0 4px 4px  rgba(33, 83, 117, 0.21);
   background-color: #242424;
   position: relative;
 }

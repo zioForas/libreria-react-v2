@@ -20,7 +20,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
             </div>
             <div className="cart">
               <div className="cart__header">
-                <span className="cart__book">Libroa</span>
+                <span className="cart__book">Libros</span>
                 <span className="cart__quantity">Cantidad</span>
                 <span className="cart__total">Precio</span>
               </div>
@@ -49,7 +49,8 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                           </button>
                         </div>
                       </div>
-                      <div className="cart__quantity">
+                      
+                      <div className="cart__quantity quatInput">
                         <input
                           type="number"
                           min={0}
@@ -61,7 +62,7 @@ const Cart = ({ cart, changeQuantity, removeItem }) => {
                           }
                         />
                       </div>
-                      <div className="cart__total">
+                      <div className="cart__total totalUnder">
                         €
                         {(
                           (book.salePrice || book.originalPrice) * book.quantity

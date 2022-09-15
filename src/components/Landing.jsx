@@ -8,13 +8,14 @@ const Landing = () => {
       <header>
         <div className="header__container">
           <div className="header__description">
-            <h1>La Mejor Libraria On-line en España</h1>
+            <h1 >La Mejor Libraria On-line en España</h1>
             <h2>
-              Encuentra tu libro favorito con <span className="purple">Library</span>
+              Encuentra tu libro favorito con{" "}
+              <span className="purple">Library</span>
             </h2>
-            <Link to="#features">
+            <a href="#features">
               <button className="btn">Ver Libros</button>
-            </Link>
+            </a>
           </div>
           <figure className="header__img--wrapper">
             <img src={UndrawBooks} alt="" />
